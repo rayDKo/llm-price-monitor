@@ -1,0 +1,20 @@
+{
+  "name": "LLM Price Monitor",
+  "short_name": "LLM Prices",
+  "description": "Track and compare LLM model pricing across providers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "ru"
+}
