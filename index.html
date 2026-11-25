@@ -22,14 +22,14 @@
       }
     }
   </script>
-  <!-- Alpine.js -->
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <!-- Dexie.js -->
   <script src="https://cdn.jsdelivr.net/npm/dexie@4.0.8/dist/dexie.min.js"></script>
-  <!-- App entry -->
-  <script type="module" crossorigin src="/assets/index-BdJ9voVd.js"></script>
+  <!-- App entry - registers Alpine component -->
+  <!-- Alpine.js - load AFTER app registration, no defer -->
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script>
+  <script type="module" crossorigin src="/assets/index-BBKXpDvo.js"></script>
 </head>
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen transition-colors duration-200" x-data="app" x-init="init()">
   <!-- Toast container -->
